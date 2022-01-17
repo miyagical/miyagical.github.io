@@ -1,68 +1,70 @@
-<!DOCTYPE HTML>
 <html>
 	<head>
-		<style>
-			html {
-				scrollbar-width: normal;
-				scrollbar-color: gray white;
-			}
-
-			html::-webkit-scrollbar{
-				width: 10px;
-			}
-
-			html ::-webkit-scrollbar-thumb{
-				background-color: gray;
-			}
-
-			html ::-webkit-scrollbar-track{
-				background-color: white;
-			}
-		</style>
-		<title>Miyagi's Website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
+		<script type="text/javascript"> <!--
+    	function UnCryptMailto(s) {
+    	    var n = 0;
+    	    var r = "";
+    	    for(var i = 0; i < s.length; i++) {
+    	        n = s.charCodeAt( i );
+    	        if( n >= 8364 ) {
+    	            n = 128;
+    	        }
+    	        r += String.fromCharCode( n - 1 );
+    	    }
+    	    return r;
+    	}
+    	function linkTo_UnCryptMailto(s) {
+    	    location.href=UnCryptMailto(s);
+    	}
+    	// --> </script>
 	</head>
+	<body>
+		<h1>Hello World</h1>
 
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+		<p>
+		My name is Devon Peticolas; I'm an NYC-based Data Generalist who loves functional programming, programming history, and building environments that foster compelling data science. I often speak at conferences and meetups about Data Science and Engineering.
+		<p>
+		In my spare time, I'm working to perfect the chocolate chip cookie.
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Miyagi</h1>
-						<p>Japanese Fighter &nbsp;&bull;&nbsp; Veteran &nbsp;&bull;&nbsp; Gone long ago</p>
-						<nav>
-							<ul>
-								<li><a href="https://www.youtube.com/channel/UCRNBKF2MQYuvlhWlao-5tGA" class="icon brands fa-youtube"><span class="label">youtube</span></a></li>
-								<li><a href="https://www.reddit.com/user/calani1" class="icon brands fa-reddit"><span class="label">fa-reddit</span></a></li>
-								<li><a href="https://github.com/miyagical" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="mailto:juan4a42@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-							<ul> 
-								<p>Strange Case of Dr Jekyll and Mr Hyde &nbsp;&bull;&nbsp; Animal Farm &nbsp;&bull;&nbsp; Europe's History</p> <li><a href="https://miyagical.github.io/Strange-Case-of-Dr-Jekyll-and-Mr-Hyde/?page=1" class="icon solid fa-book"><span class="label">Book</span></a></li>
-								<li><a href="https://miyagical.github.io/AnimalFarm/" class="icon solid fa-book"><span class="label">Book</span></a></li>
-								<li><a href="https://miyagical.github.io/Europe-s-History/" class="icon solid fa-book"><span class="label">Book</span></a></li>
-								
-							</ul>
-						</nav>
-					</header>
-			
-				<!-- Footer -->
-					<footer id="footer">
-						<!-- <span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span> -->
-					</footer>
+		<h3>Contact Me</h3>
+		<a href="javascript:linkTo_UnCryptMailto('nbjmup;efwpoAqfujdpm/bt');">devon＠peticol․as</a>
 
-			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
+		<h3>Links</h3>
+		<ul>
+			<li><a href="https://github.com/x">github.com/x</a></li>
+			<li><a href="https://github.com/x/slides">Conference and Meetup Slides</a></li>
+			<li><a href="https://github.com/x/Resume/blob/master/resume.pdf">Resume (updated 2017)</a></li>
+		</ul>
+
+		<h3>Talks</h3>
+		<ul>
+			<li>2021 - <b>Apache Beam Summit</b> - "Batch-Mode Late-Data Processing for Streaming Pipelines" (<a href="https://github.com/x/slides/blob/master/beam-summit-2021/Apache%20Beam%20Summit%20-%20Leveraging%20Batch-Mode%20for%20Late-Data%20Processing%20of%20Streaming%20Pipelines.pdf">slides</a>, <a href="https://www.youtube.com/watch?v=g1p8PR44l90">video</a>)
+			<li>2020 - <b>NYC Apache Airflow Meetup</b> - "Local Airflow Development at Oden" (<a href="https://github.com/x/slides/blob/master/airflow-nyc-2020/Local%20Airflow%20Development%20at%20Oden.pdf">slides</a>)
+			<li>2019 - <b>ICDM 2019 (Beijing)</b> - "Local Airflow Development at Oden" (<a href="https://github.com/x/slides/blob/master/icdm-2019/ICDM2019%20Mimir%20Presentation.pdf">slides</a>, <a href="https://ieeexplore.ieee.org/document/8955638">paper</a>)
+			<li>2019 - <b>NYC Apache Beam Meetup</b> - "Spanning the Cloud and Factory with Apache Beam" (<a href="https://github.com/x/slides/blob/master/beam-nyc-2019/Spanning%20the%20Cloud%20and%20Factory%20with%20Apache%20Beam.pdf">slides</a>)
+			<li>2019 - <b>NYC Apache Airflow Meetup</b> - "Machine Learning for Manufacturing with Airflow" (<a href="https://github.com/x/slides/blob/master/airflow-nyc-2019/Machine%20Learning%20for%20Manufacturing%20with%20Airflow.pdf">slides</a>)
+			<li>2019 - <b>Time-Series Data NY</b> - "Oden ♡ Bigtable" (<a href="https://github.com/x/slides/blob/master/timeseries-meetup-2019/Oden%20Bigtable%20Usage%20-%20Time%20Series%20Meetup.pdf">slides</a>, <a href="https://youtu.be/EFqVCKfYJW4?t=2222">video</a>)
+			<li>2018 - <b>Internet of Things (IoT) NY</b> - "Bringing the Cloud to the 4th Industrial Revolution" (<a href="https://github.com/x/slides/blob/master/iot-ny-2019/Bringing%20the%20Cloud%20to%20the%204th%20Industrial%20Revolution.pdf">slides</a>, <a href="https://livestream.com/internetsociety/iotny51/videos/170322009">video</a>)
+			<li>2017 - <b>Pycon Japan (Tokyo)</b> - "How (and Why) We Speak in Unicode" (<a href="https://github.com/x/slides/blob/master/pycon-japan-2017/How%20(and%20Why)%20We%20Speak%20in%20Unicode.pdf">slides</a>, <a href="https://www.youtube.com/watch?v=ZaacMXFmttw">video</a>)</li>
+			<li>2016 - <b>Clojure/West</b> - "One Million Clicks per Minute With Kafka and Clojure" (<a href="https://github.com/x/slides/blob/master/cloujre-west-2016/ONE%20MILLION%20CLICKS%20PER%20MINUTE.pdf">slides</a>, <a href="https://www.youtube.com/watch?v=VC_MTD68erY">video</a>)</li>
+		</ul>
+
+		<h3>Publications</h3>
+		<ul>
+			<li>2019 - <a href="https://ieeexplore.ieee.org/document/8955638">Mímir: Building and Deploying an ML Framework for Industrial IoT</a></li>
+		</ul>
+
+		<small>
+			<h3>Small Stuff</h3>
+			<ul>
+				<li><a href="https://smol.party">Smol.Party</a></li>
+				<li><a href="https://boring.nyc">Boring.NYC</a></li>
+				<li><a href="http://peticol.as/Flappy-Bird-1k/">1Kb Flappy Bird</a></li>
+				<li><a href="https://gist.github.com/x/a4f56d7f42c09533a4f32830b604ec31">Web apps w/ netcat</a></li>
+				<li><a href="https://gist.github.com/x/1567126885a24c4848ea3eaba63430b3">PETSCII Maze</a></li>
+			</ul>
+		</small>
 	</body>
 </html>
